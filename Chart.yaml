@@ -12,8 +12,8 @@ appVersion: 26.3.3
 dependencies:
 - condition: postgresql.enabled
   name: postgresql
-  repository: oci://registry-1.docker.io/bitnamicharts
-  version: 16.x.x
+  repository: https://github.com/htsnc-ops/vault.git
+  version: HEAD
 - name: common
   repository: oci://registry-1.docker.io/bitnamicharts
   tags:
