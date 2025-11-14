@@ -113,10 +113,10 @@ image:
 auth:
   ## @param auth.adminUser Keycloak administrator user
   ##
-  adminUser: user
+  adminUser: admin
   ## @param auth.adminPassword Keycloak administrator password for the new user
   ##
-  adminPassword: ""
+  adminPassword: admin
   ## @param auth.existingSecret Existing secret containing Keycloak admin password
   ##
   existingSecret: ""
@@ -556,8 +556,8 @@ service:
   ## NOTE: choose port between <30000-32767>
   ##
   nodePorts:
-    http: ""
-    https: ""
+    http: 38080
+    https: 30443
   ## @param service.extraPorts Extra port to expose on Keycloak service
   ##
   extraPorts: []
