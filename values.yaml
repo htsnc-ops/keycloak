@@ -93,7 +93,7 @@ usePasswordFiles: true
 image:
   registry: docker.io
   repository: bitnami/keycloak
-  tag: 26.3.3
+  tag: 25.2.0
   digest: ""
   ## Specify a imagePullPolicy
   ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
